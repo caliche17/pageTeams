@@ -1,10 +1,7 @@
 import React from 'react';
 import './pageTeam.sass';
 import Teams from "./components/Teams";
-import Nacional from "./components/Nacional";
-import Penarol from "./components/Penarol";
-import Alahly from './components/Alahly';
-import Rangers from './components/Rangers';
+import Equipos from "./components/Equipos";
 
 function App() {
 
@@ -25,10 +22,10 @@ function App() {
 
         <div class='contenido'>
           
-          <Nacional description={"146 títulos (137 nacionales + 9 internacionales)"} title={"NACIONAL (Uruguay)"} imgUrl={"https://www.nacional.uy/images/logo-pie.png"} />
-          <Penarol description={"127 títulos (119 nacionales + 8 internacionales)"} title={"PEÑAROL (Uruguay)"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo-club-atletico-penarol.png"} />
-          <Alahly description={"116 títulos (96 nacionlales + 20 internacionales)"} title={"AL AHLY (Egipto)"} imgUrl={"https://upload.wikimedia.org/wikipedia/en/7/73/%D9%90%D9%90ASC.ALAHLYSC.png"} />
-          <Rangers description={"115 títulos (114 nacionales + 1 internacional)"} title={"RANGERS (Escocia)"} imgUrl={"https://1.bp.blogspot.com/-CZogrrxnU7o/XwZkf99vKYI/AAAAAAABezY/nBdEEWuhmucaKEV6cdTGkCtZDoU8Tz3VwCK4BGAsYHg/s512/Rangers%2BFC.png"} />
+          <Equipos description="146 títulos (137 nacionales + 9 internacionales)" nombre="1) NACIONAL (Uruguay)" id ="nacional" imgUrl="https://www.nacional.uy/images/logo-pie.png"/>
+          <Equipos description="127 títulos (119 nacionales + 8 internacionales)" nombre="2) PEÑAROL (Uruguay)" id= "penarol" imgUrl="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo-club-atletico-penarol.png" />
+          <Equipos description="116 títulos (96 nacionlales + 20 internacionales)" nombre="3) AL AHLY (Egipto)" id="alahly" imgUrl="https://upload.wikimedia.org/wikipedia/en/7/73/%D9%90%D9%90ASC.ALAHLYSC.png" />
+          <Equipos description="115 títulos (114 nacionales + 1 internacional)" nombre="4) RANGERS (Escocia)" id= "rangers" imgUrl="https://1.bp.blogspot.com/-CZogrrxnU7o/XwZkf99vKYI/AAAAAAABezY/nBdEEWuhmucaKEV6cdTGkCtZDoU8Tz3VwCK4BGAsYHg/s512/Rangers%2BFC.png" />
           
         </div>
 
